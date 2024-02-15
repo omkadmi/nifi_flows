@@ -1,6 +1,6 @@
 flows:
-  27f45a0a-0a50-4019-9466-67272e586d66: {ver: 1, file: flow2_new.snapshot, comments: '',
-    author: anonymous, created: 1708008174019, flowName: flow2 new, flowDesc: ''}
+  27f45a0a-0a50-4019-9466-67272e586d66: {ver: 2, file: flow2_new.snapshot, comments: '',
+    author: anonymous, created: 1708008192449, flowName: flow2 new, flowDesc: ''}
   b55ce9b2-0703-4d3e-a29c-21f441a7563c: {ver: 2, file: Flow1.snapshot, comments: test
       after migration, author: anonymous, created: 1708005810202, flowName: Flow1,
     flowDesc: ''}
