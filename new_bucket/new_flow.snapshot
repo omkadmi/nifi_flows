@@ -99,6 +99,49 @@
           "style" : { },
           "type" : "org.apache.nifi.processors.cybersecurity.CompareFuzzyHash",
           "yieldDuration" : "1 sec"
+        }, {
+          "autoTerminatedRelationships" : [ ],
+          "backoffMechanism" : "PENALIZE_FLOWFILE",
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-parquet-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.25.0"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "19824a23-30c8-3838-82ca-95075e848c65",
+          "identifier" : "4fda9cb0-5378-32c5-99d7-293821dac6ac",
+          "instanceIdentifier" : "ad39e652-018d-1000-743f-f5c63a6cebc9",
+          "maxBackoffPeriod" : "10 mins",
+          "name" : "CalculateParquetRowGroupOffsets",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 476.0,
+            "y" : 76.0
+          },
+          "properties" : {
+            "Zero Content Output" : "false"
+          },
+          "propertyDescriptors" : {
+            "Zero Content Output" : {
+              "displayName" : "Zero Content Output",
+              "identifiesControllerService" : false,
+              "name" : "Zero Content Output",
+              "sensitive" : false
+            }
+          },
+          "retriedRelationships" : [ ],
+          "retryCount" : 10,
+          "runDurationMillis" : 0,
+          "scheduledState" : "ENABLED",
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.parquet.CalculateParquetRowGroupOffsets",
+          "yieldDuration" : "1 sec"
         } ],
         "remoteProcessGroups" : [ ],
         "variables" : { }
