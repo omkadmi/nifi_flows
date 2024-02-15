@@ -1,5 +1,5 @@
 flows:
-  0802712f-e837-4d12-ae42-d036798d112f: {ver: 2, file: new_flow.snapshot, comments: sss,
-    author: anonymous, created: 1708008274361, flowName: new flow, flowDesc: ''}
+  0802712f-e837-4d12-ae42-d036798d112f: {ver: 3, file: new_flow.snapshot, comments: '',
+    author: anonymous, created: 1708008758865, flowName: new flow, flowDesc: ''}
 layoutVer: 1
 bucketId: ed891c82-2c8d-44cd-8206-8218b31d4f62

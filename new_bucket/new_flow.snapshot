@@ -119,8 +119,8 @@
           "name" : "CalculateParquetRowGroupOffsets",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 476.0,
-            "y" : 76.0
+            "x" : 600.0,
+            "y" : 24.0
           },
           "properties" : {
             "Zero Content Output" : "false"
