@@ -41,6 +41,55 @@
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
           "groupIdentifier" : "97d0fb8d-e315-3213-84fb-b1e1e95c068e",
+          "identifier" : "49318ece-72d0-3e11-8f82-0c6c5c3b8f39",
+          "instanceIdentifier" : "ad37733a-018d-1000-9460-d7d4c34ba7da",
+          "maxBackoffPeriod" : "10 mins",
+          "name" : "CalculateRecordStats",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 308.0,
+            "y" : 291.0
+          },
+          "properties" : {
+            "record-stats-limit" : "10"
+          },
+          "propertyDescriptors" : {
+            "record-stats-limit" : {
+              "displayName" : "record-stats-limit",
+              "identifiesControllerService" : false,
+              "name" : "record-stats-limit",
+              "sensitive" : false
+            },
+            "record-stats-reader" : {
+              "displayName" : "Record Reader",
+              "identifiesControllerService" : true,
+              "name" : "record-stats-reader",
+              "sensitive" : false
+            }
+          },
+          "retriedRelationships" : [ ],
+          "retryCount" : 10,
+          "runDurationMillis" : 0,
+          "scheduledState" : "ENABLED",
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.standard.CalculateRecordStats",
+          "yieldDuration" : "1 sec"
+        }, {
+          "autoTerminatedRelationships" : [ ],
+          "backoffMechanism" : "PENALIZE_FLOWFILE",
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-standard-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.25.0"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "97d0fb8d-e315-3213-84fb-b1e1e95c068e",
           "identifier" : "812d9def-42ab-3009-a1ea-df5f2e9c1ce2",
           "instanceIdentifier" : "ad014711-018d-1000-9fe1-eb669f39f8d9",
           "maxBackoffPeriod" : "10 mins",

@@ -1,5 +1,5 @@
 flows:
-  a9f17dc0-7633-49d1-b5a2-5b9a5005e116: {ver: 2, file: Flow2.snapshot, comments: test2,
-    author: anonymous, created: 1708005924230, flowName: Flow2, flowDesc: ''}
+  a9f17dc0-7633-49d1-b5a2-5b9a5005e116: {ver: 3, file: Flow2.snapshot, comments: '',
+    author: anonymous, created: 1708008113408, flowName: Flow2, flowDesc: ''}
 layoutVer: 1
 bucketId: 82f13376-5495-41dd-b23d-4ae9050e4fed
